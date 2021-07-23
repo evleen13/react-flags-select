@@ -88,6 +88,7 @@ export default ({
     "HU": "Hungary",
     "IS": "Iceland",
     "IN": "India",
+    "INT": "International",
     "ID": "Indonesia",
     "IR": "Iran, Islamic Republic of",
     "IQ": "Iraq",
