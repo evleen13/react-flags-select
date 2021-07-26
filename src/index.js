@@ -42,7 +42,7 @@ class ReactFlagsSelect extends Component {
 	}
 
 	closeOptions(event) {
-		if (event.target !== this.refs.selectedFlag && event.target !== this.refs.flagOptions && event.target !== this.refs.filterText ) {
+		if (event.target !== this.refs.selectedFlag && event.target !== this.refs.flagOptions && event.target !== this.refs.filterText && this.state.openOptions) {
 			this.setState({
 				openOptions: false
 			});
